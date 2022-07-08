@@ -21,8 +21,8 @@ jobs:
     - name: Checkout Validation Repo
       uses: actions/checkout@v2
       with:
-        repository: 'starkari/covid19-forecast-hub-validations'
-        ref: 'config'
+        repository: 'reichlab/covid19-forecast-hub-validations'
+        ref: 'issue-48-49'
         path: 'covid19-forecast-hub-validations'
     - name: Setup Python
       uses: actions/setup-python@v2
